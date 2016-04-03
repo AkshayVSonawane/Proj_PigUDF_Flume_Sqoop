@@ -1,0 +1,1 @@
+sqoop export --connect jdbc:mysql://localhost/proj1 --username 'root' --P --table progress --export-dir '/Akshay/proj/pig_result8/part-m-00000' --input-fields-terminated-by ',' -m 1
